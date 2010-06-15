@@ -1,0 +1,9 @@
+Use:
+
+55.to_words
+  => 'fifty-five'
+
+55.to_words(:lang => 'es')
+  => 'cincuenta y cinco'
+
+It (will) be easy to break out the library for local use, and also at numlet.com/55?lang=es
