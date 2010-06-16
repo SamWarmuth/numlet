@@ -43,6 +43,7 @@
 103, one hundred three
 104, one hundred four
 110, one hundred ten
+150, one hundred fifty
 200, two hundred
 300, three hundred
 400, four hundred
@@ -63,3 +64,4 @@
 1_000_000, one million
 10_000_000, ten million
 1_000_000_000, one billion
+1_312_828_113, one billion three hundred twelve million eight hundred twenty-eight thousand one hundred thirteen

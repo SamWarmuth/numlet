@@ -44,3 +44,31 @@
 70, siebzig
 80, achtzig
 90, neunzig
+100, einhundert
+101, einhunderteins
+102, einhundertzwei
+103, einhundertdrei
+104, einhundertvier
+105, einhundertfünf
+106, einhundertsechs
+107, einhundertsieben
+108, einhundertacht
+109, einhundertneun
+110, einhundertzehn
+200, zweihundert 
+300, dreihundert
+400, vierhundert
+500, fünfhundert
+600, sechshundert
+700, siebenhundert
+800, achthundert
+900, neunhundert
+972, neunhundertzweiundsiebzig
+2000, zweitausend
+2001, zweitausendeins
+6565, sechstausendfünfhundertfünfundsechzig
+20_000, zwanzigtausend
+100_000, einhunderttausend
+1_000_000, ein Million
+2_000_000, zwei Millionen
+1000, eintausend

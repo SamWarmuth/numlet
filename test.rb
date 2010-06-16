@@ -7,12 +7,9 @@ class BasicTests < Test::Unit::TestCase
 end
 
 class EnglishTest < Test::Unit::TestCase
-  def setup
-    @cardinals = File.read('cardinals/en.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
-  end
-  
-  def test_to_cardinal
-    @cardinals.each do |pair|
+  @cardinals = File.read('cardinals/en.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
+  @cardinals.each do |pair|
+    define_method("test_english_#{pair[0]}".to_sym) do
       assert_equal(pair[1], pair[0].to_cardinal('en'))
     end
   end
@@ -31,12 +28,9 @@ class FrenchTest < Test::Unit::TestCase
 end
 
 class GermanTest < Test::Unit::TestCase
-  def setup
-    @cardinals = File.read('cardinals/de.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
-  end
-  
-  def test_to_cardinal
-    @cardinals.each do |pair|
+  @cardinals = File.read('cardinals/de.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
+  @cardinals.each do |pair|
+    define_method("test_german_#{pair[0]}".to_sym) do
       assert_equal(pair[1], pair[0].to_cardinal('de'))
     end
   end
@@ -67,15 +61,11 @@ class PortugueseTest < Test::Unit::TestCase
 end
 
 class SpanishTest < Test::Unit::TestCase
-  def setup
-    @cardinals = File.read('cardinals/es.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
-  end
-  
-  def test_to_cardinal
-    @cardinals.each do |pair|
+  @cardinals = File.read('cardinals/es.txt').map{|l| l = l.split(","); [l[0].to_i, l[1].strip]}
+  @cardinals.each do |pair|
+    define_method("test_spanish_#{pair[0]}".to_sym) do
       assert_equal(pair[1], pair[0].to_cardinal('es'))
     end
   end
-  
 end
 

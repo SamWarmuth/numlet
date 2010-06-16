@@ -55,20 +55,32 @@
 108, ciento ocho
 109, ciento nueve
 110, ciento diez
+176, ciento setenta y seis
 200, doscientos
+280, doscientos ochenta
 300, trescientos
+345, trescientos cuarenta y cinco
 400, cuatrocientos
+422, cuatrocientos veintidós
 500, quinientos
 600, seiscientos
 700, setecientos
 800, ochocientos
 900, novecientos
-1000, mil
 2000, dos mil
 3000, tres mil
 4000, cuatro mil
 5000, cinco mil
+5020, cinco mil veinte
 6000, seis mil
 7000, siete mil
 8000, ocho mil
 9000, nueve mil
+11300, once mil trescientos
+49700, cuarenta y nueve mil setecientos
+1000, mil
+1058, un mil cincuenta y ocho
+1200, mil doscientos
+1547, mil quinientos cuarenta y siete
+1600, mil seiscientos
+1_000_000, millión

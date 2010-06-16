@@ -13,3 +13,13 @@ Examples:
   
 10.to_ordinal(:lang => 'es')
   => 'décimo'
+  
+To add a new language:
+
+  1. Fork.
+  2. Add text files to /cardinals and /ordinals that provide examples for relevant inflection points.
+      Use the form "numeral, words \n" (see existing files)
+  3. Add tests for your language that fail; commit.
+  4. Implement language in source so that tests pass.
+  5. Send me a pull request.
+  
