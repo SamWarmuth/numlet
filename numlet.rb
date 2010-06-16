@@ -1,5 +1,3 @@
-
-
 class Integer
   Language = {
     "en" => {:ones  => %w[zero one two three four five six seven eight nine ten 
@@ -30,8 +28,6 @@ class Integer
        large = language[:large][index]
        output = hundreds + " " + tens + " "+large+ " " + output
      end
-     return output
+     return output.strip
    end
 end
-
-puts 55.to_words(:lang => "es")
