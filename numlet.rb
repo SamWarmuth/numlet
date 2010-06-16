@@ -19,10 +19,9 @@ class Integer
              :zero => "cero"}
     }
 
-   def to_words(args = {})
-     language = Language[args[:lang] || "en"]
+   def to_words(lang = "en")
+     language = Language[lang]
      raise "Language Invalid/Not Found" if language.nil?
-     
      
      triplets = to_s.reverse.scan(/\d{1,3}/).map{|l| l.reverse.to_i}
      output = ""
