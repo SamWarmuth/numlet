@@ -2,14 +2,14 @@ Eventually will give solid multi-lingual support for turning arabic numerals int
 
 Examples:
 
-55.to_words
+55.to_cardinal
   => 'fifty-five'
 
-55.to_words(:lang => 'es')
+55.to_cardinal(:lang => 'es')
   => 'cincuenta y cinco'
   
-10.ordinal
+10.to_ordinal
   => 'tenth'
   
-10.ordinal(:lang => 'es')
+10.to_ordinal(:lang => 'es')
   => 'décimo'
