@@ -48,7 +48,7 @@
 101, ciento uno 
 102, ciento dos 
 103, ciento tres 
-104, ciento cuatro 
+104, ciento cuatro
 105, ciento cinco 
 106, ciento seis 
 107, ciento siete 
