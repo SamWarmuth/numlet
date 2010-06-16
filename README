@@ -1,7 +1,15 @@
-Use:
+Eventually will give solid multi-lingual support for turning arabic numerals into words
+
+Examples:
 
 55.to_words
   => 'fifty-five'
 
 55.to_words(:lang => 'es')
   => 'cincuenta y cinco'
+  
+10.ordinal
+  => 'tenth'
+  
+10.ordinal(:lan => 'es')
+  => 'décimo'
