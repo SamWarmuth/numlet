@@ -11,5 +11,5 @@ Examples:
 10.ordinal
   => 'tenth'
   
-10.ordinal(:lan => 'es')
+10.ordinal(:lang => 'es')
   => 'décimo'
