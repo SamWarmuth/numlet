@@ -19,7 +19,7 @@ class Integer
              :zero => "cero"}
     }
 
-   def to_words(lang = "en")
+   def to_cardinal(lang = "en")
      language = Language[lang]
      raise "Language Invalid/Not Found" if language.nil?
      
