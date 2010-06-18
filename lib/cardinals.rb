@@ -1,5 +1,4 @@
 # encoding: utf-8
-
 class Integer
   Rules = {"en" => [[[0], ""],
                     [(1..19).to_a,                             "[small] [magnitude]"],
