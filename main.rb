@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'lib/numlet'
+require 'rubygems'
 require 'sinatra'
 require 'haml'
 require 'sass'
