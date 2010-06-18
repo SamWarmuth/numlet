@@ -1,0 +1,23 @@
+%h1 Numlet: Convert all of your numbers into words.
+.detail.center
+  %h2
+    Enter a Number
+    %input.huge_text{:type => "text", :value => "42", :autofocus => true}
+  #status{:style => "opacity: 0.0"}
+    %img{:src => "http://dl.dropbox.com/u/517417/ajax.gif", :style => "padding: 0; margin: 0"}
+  #output{:style => "margin: auto"}
+    
+:javascript
+  $(document).ready(function(){
+    $("#status").fadeTo("fast",1.0);
+    $("#output").load(("/ajax/"+$(".huge_text").val()), null, function(){$("#status").fadeTo("fast",0.0);});
+    
+    $(".huge_text").keyup(function(e){  
+      if ((e.keyCode > 47 && e.keyCode < 58)||(e.keyCode == 8)){
+        if ($(this).val() == "") break;
+        $("#status").fadeTo("fast",1.0);
+        $("#output").load(("/ajax/"+$(this).val()), null, function(){$("#status").fadeTo("fast",0.0);});
+      }
+    });
+    
+  });

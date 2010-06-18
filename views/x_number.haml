@@ -1,0 +1,15 @@
+.center{:style => "margin: auto; background-color: #BAA; width: auto;display: inline"}
+  %h2{:style => "width: auto"} #{@number}
+  %h4
+    %table{:style => "margin: auto; text-align: left; max-width: 80%;"}
+      - @words.each_pair do |language, words| 
+        %tr
+          %td
+            .rounded_highlight= language
+          %td
+            &rarr; 
+          %td
+            .rounded_highlight= words
+        %tr
+          %td
+            &nbsp;
