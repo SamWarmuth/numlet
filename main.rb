@@ -1,5 +1,11 @@
 # encoding: utf-8
+require 'rubygems'
+require 'sinatra'
+require 'haml'
+require 'sass'
+require 'main'
 require 'lib/numlet'
+
 
 before do headers "Content-Type" => "text/html; charset=utf-8" end
 
